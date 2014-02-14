@@ -1,0 +1,68 @@
+/*
+ Theme Name:   mon_theme
+ Theme URI:    http://example.com/twenty-fourteen-child/
+ Description:  Twenty Fourteen Child Theme
+ Author:       Estelle Sélas
+ Author URI:   http://example.com
+ Template:     twentythirteen
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fourteen-child
+*/
+
+@import url("../twentythirteen/style.css");
+
+.mapGoogle{
+	text-align: center;
+	margin: 0px 27% 0px 27%;
+}
+
+footer{
+	display:none;
+}
+
+#content{
+	margin-top: 0;
+    padding: 10px;
+	background-color:#8dc1e9;
+}
+
+article{
+	padding:5px;
+	border: 2px solid black; 
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	background-color:#ececec;
+    margin: 20px auto;
+    width: 800px;
+}
+
+h1{
+	margin-top:10px;
+}
+
+.hentry {
+    padding: 10px 0;
+}
+
+#respond{
+	border: 2px solid black; 
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	background-color:#ececec;
+}
+
+header.archive-header{
+	display:none;
+}
+
+nav.navigation, #navbar{
+	background-color:#ececec;
+}
+#navbar{
+
+}
